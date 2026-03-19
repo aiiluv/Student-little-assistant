@@ -1,0 +1,144 @@
+.logo {
+  width: 960px;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo {
+  transform: translateX(+48px);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.welcome-box {
+  margin-top: 10px;
+  display: inline-flex;
+  align-items: center;
+  background: white;
+  border-radius: 50px;
+  padding: 10px 25px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  border: 2px solid #ff6f59;
+  margin-bottom: 80px;
+
+}
+
+.hi {
+  background: #ff6f59;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 30px;
+  margin-right: 15px;
+  font-weight: 1000;
+  font-size: 25px;
+}
+
+.sub{
+    font-size: 30px;
+}
+/* CATEGORY */
+.category-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 400px;
+  padding: 80px 5%;
+}
+
+.left h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  color: #2ca36c;
+}
+
+.left p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.right {
+  display: grid;
+  grid-template-columns: repeat(2, 140px);
+  gap: 40px; 
+}
+
+.card {
+  height: 120px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* STORIES */
+.stories {
+  padding: 60px 10%;
+  text-align: center;
+}
+
+.stories h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  color: #2ca36c;
+  margin-bottom: 40px;
+}
+
+.story-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.story {
+  text-align: center;
+}
+
+.image-placeholder {
+  width: 180px;
+  height: 200px;
+  background: #d9d9d9;
+  margin-bottom: 10px;
+}
+
+footer {
+  height: 100px;
+  background: #f1d65c;
+}
+
+.footer{
+  height: 400px;
+  background: #FFF07A;
+}
+
+
+.space-gap{
+  height: 50px;
+  background: #FFFF;
+}

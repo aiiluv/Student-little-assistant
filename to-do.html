@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do page</title>
+    <link rel="stylesheet" href="style-todo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+  <div class="todo-app">
+    <h1>To-do <span>List</span></h1>
+
+    <div class="progress-container">
+    <div class="progress-info">
+        <div>
+            <h3>Keep it Up!</h3>
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+        </div>
+        <div class="progress-count">
+            <span id="progress-numbers">0 / 0</span>
+        </div>
+    </div>
+</div>
+
+    <div class="input-area">
+      <input type="text" id="task-input" placeholder="Add a new task..">
+      <button id="add-task-btn" type="button">+</button>
+    </div>
+
+    <div class="todos-container">
+      <ul id="task-list"></ul>
+    </div>
+
+  </div>
+</div>
+
+<script src="script-todo.js"></script>
+</body>
+</html>
