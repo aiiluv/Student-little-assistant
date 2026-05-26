@@ -43,5 +43,53 @@
   <footer></footer>
   <footer class="footer"></footer>
 
+  <script>
+    // Pendo Track Events for LSA
+
+    // Category names mapped to card indices
+    var categoryNames = ["Study Tools", "Practice Tests", "Summaries", "Resources"];
+
+    // Event 1: tool_category_selected
+    // Fires when a student clicks one of the 4 tool category cards
+    document.querySelectorAll(".card").forEach(function (card, index) {
+      card.addEventListener("click", function () {
+        if (typeof pendo !== "undefined" && pendo.track) {
+          pendo.track("tool_category_selected", {
+            categoryName: categoryNames[index] || "Unknown",
+            categoryIndex: index + 1,
+            referrerSection: "category_section"
+          });
+        }
+      });
+    });
+
+    // Event 2: student_search_executed
+    // Call this function when a search feature is implemented
+    function trackStudentSearch(searchQuery, resultsCount, searchSource, selectedResultIndex) {
+      if (typeof pendo !== "undefined" && pendo.track) {
+        pendo.track("student_search_executed", {
+          searchQuery: (searchQuery || "").substring(0, 100),
+          resultsCount: resultsCount || 0,
+          searchSource: searchSource || "main",
+          selectedResultIndex: selectedResultIndex !== undefined ? selectedResultIndex : -1
+        });
+      }
+    }
+
+    // Event 3: tool_usage_completed
+    // Call this function when a student completes using a tool
+    function trackToolUsageCompleted(toolName, toolCategory, durationSeconds, completionStatus, resultType) {
+      if (typeof pendo !== "undefined" && pendo.track) {
+        pendo.track("tool_usage_completed", {
+          toolName: toolName || "Unknown",
+          toolCategory: toolCategory || "Unknown",
+          durationSeconds: durationSeconds || 0,
+          completionStatus: completionStatus || "completed",
+          resultType: resultType || "default"
+        });
+      }
+    }
+  </script>
+
 </body>
 </html>
