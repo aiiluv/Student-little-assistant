@@ -1,5 +1,6 @@
-## SLA
+## Student little assistant
 ### Hi! Welcome to SLA, what can i help you today?
+<img width="994" height="581" alt="image" src="https://github.com/user-attachments/assets/50f99ea6-10ea-4cd4-ab40-7ef2f6a192ce" />
 
 ## About SLA
 Student Little Assistant is a website designed to help students manage their daily learning activities.
