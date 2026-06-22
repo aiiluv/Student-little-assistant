@@ -4,6 +4,7 @@
 
 ## About SLA
 Student Little Assistant is a website designed to help students manage their daily learning activities.
+A simple website developed using Vs code. This website has 4 features inside that you can use!
 
 ## features
 - Todo list : Users can create task lists, mark completed tasks, and edited it.
