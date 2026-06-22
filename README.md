@@ -1,5 +1,5 @@
-##SLA
-##Hi! Welcome to SLA, what can i help you today?
+## SLA
+### Hi! Welcome to SLA, what can i help you today?
 
 ## About SLA
 SLA (student lil assistant) is a website to help students organize their task, grades, etc!
