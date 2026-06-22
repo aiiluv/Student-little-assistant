@@ -10,5 +10,5 @@ Student Little Assistant is a website designed to help students manage their dai
 - Grade calculator : calculate their academic scores based on assignments, quizzes, exams, and other assessments.
 - Pomodoro timer : A productivity timer based on the Pomodoro Technique, where users study for a focused period (e.g., 25 minutes) followed by a short break
 
-## made by
+## made with
 Html, css, java script
