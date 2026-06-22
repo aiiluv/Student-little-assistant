@@ -2,7 +2,7 @@
 ### Hi! Welcome to SLA, what can i help you today?
 
 ## About SLA
-SLA (student lil assistant) is a website to help students organize their task, grades, etc!
+Student Little Assistant is a website designed to help students manage their daily learning activities.
 
 #features
 - Todo list
